@@ -3,36 +3,49 @@
     <head>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <link href="/dist/output.css" rel="stylesheet">
+        <link href="../dist/output.css" rel="stylesheet">
     </head>
     <body>
-        <h1 class="text-3xl font-bold underline">
-            Guilherme
-        </h1>
-
-        <p>
-            oi, reuni algumas informações, me baseei nesse exemplo que tinha no git
-            http://www-usr.inf.ufsm.br/~rtrindade/
-        </p>
-
-        <h2>Sobre</h2>
-        <p>
-            Graduando em Sistemas de Informação apaixonado por tecnologia e sua capacidade de transformar o mundo. Atualmente, estagiário de desenvolvimento de software, trabalhando com tecnologias como Laravel, PHP, Javascript e Vue. Bolsista do Programa de Educação Tutorial (PET), contribuindo para projetos de pesquisa e extensão.    
-        </p>
-        
-        <h2>Experiência</h2>
-        <p>
-            bolsista no projeto PET do curso e estágio de full stack na empresa Jetimob, daí quando tu tiver fazendo e quiser alguma informação a mais tu me chama que eu te falo, tipo descrição de atividaeds e tals, 
-        </p>
-        
-        <h2>Educação/formação</h2>
-        <p>
-            Bacharelado em sistemas de informação
-        </p>
-        
-        <h2>Habilidades</h2>
-        <p>
-            Linguagens C, Javascript, PHP, Laravel, Vue, HTML, CSS, daí tu poderia separar as linguagens das outras do front e colocar tipo o icone da linguagem como tá nesse exemplo do link
-        </p>
+        <div class="flex flex-row">
+            <nav>
+                <ul class="flex flex-col flex-grow h-screen items-center justify-evenly">
+                    <li>
+                        <a href="#about">SOBRE</a>
+                    </li>
+                    <li>
+                        <a href="#experience">EXPERIÊNCIA</a>
+                    </li>
+                    <li>
+                        <a href="#education">EDUCAÇÂO</a>
+                    </li>
+                    <li>
+                        <a href="#skills">HABILIDADES</a>
+                    </li>
+                </ul>
+            </nav>
+            <div>
+                <h1 id="about" class="text-3xl font-bold underline">
+                    Guilherme Moisés Rodrigues Garcia
+                </h1>
+                <p>
+                    Graduando em Sistemas de Informação apaixonado por tecnologia e sua capacidade de transformar o mundo. Atualmente, estagiário de desenvolvimento de software, trabalhando com tecnologias como Laravel, PHP, Javascript e Vue. Bolsista do Programa de Educação Tutorial (PET), contribuindo para projetos de pesquisa e extensão.    
+                </p>
+                
+                <h2 id="experience" class="text-xl">Experiência</h2>
+                <p>
+                    Bolsista no projeto PET do curso e estágio de full stack na empresa Jetimob, daí quando tu tiver fazendo e quiser alguma informação a mais tu me chama que eu te falo, tipo descrição de atividaeds e tals, 
+                </p>
+                
+                <h2 id="education" class="text-xl">Educação</h2>
+                <p>
+                    Bacharelado em sistemas de informação
+                </p>
+                
+                <h2 id="skills" class="text-xl">Habilidades</h2>
+                <p>
+                    Linguagens C, Javascript, PHP, Laravel, Vue, HTML, CSS, daí tu poderia separar as linguagens das outras do front e colocar tipo o icone da linguagem como tá nesse exemplo do link
+                </p>
+            </div>
+        </div>
     </body>
 </html>
