@@ -8,103 +8,101 @@
         <link href="../dist/output.css" rel="stylesheet">
     </head>
     <body>
-        <div class="flex flex-row">
-            <nav class="sticky h-screen w-96 left-0 top-0 p-4 bg-slate-700 border-r-2 border-slate-900 flex flex-col items-center justify-center space-y-4">
-                <div class="w-full aspect-square">
+        <div class="flex flex-col">
+            <nav class="sticky w-screen h-32 z-10 left-0 top-0 p-4 bg-slate-700 border-b-2 border-slate-900 flex flex-row items-center justify-center space-x-4">
+                <div class="h-full aspect-square">
                     <img src="../assets/guilherme.jpg" class="rounded-full border-2 border-slate-900" alt="Foto do Guilherme">
                 </div>
-                <ul class="flex flex-col w-full space-y-2 text-white">
-                    <li class>
+                <ul class="flex flex-row h-full space-x-2 text-white">
+                    <li class="my-auto">
                         <a href="#about" class="flex p-2 rounded-lg hover:bg-slate-500">
                             <span class="mx-auto">SOBRE</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="my-auto">
                         <a href="#experience" class="flex p-2 rounded-lg hover:bg-slate-500 text-center">
                             <span class="mx-auto">EXPERIÊNCIA</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="my-auto">
                         <a href="#education" class="flex p-2 rounded-lg hover:bg-slate-500 text-center">
                             <span class="mx-auto">EDUCAÇÂO</span>
                         </a>
                     </li>
-                    <li>
+                    <li class="my-auto">
                         <a href="#skills" class="flex p-2 rounded-lg hover:bg-slate-500 text-center">
                             <span class="mx-auto">HABILIDADES</span>
                         </a>
                     </li>
                 </ul>
             </nav>
-            <div class="relative flex flex-col">
-                <main class="relative p-4">
-                    <section id="about" class="p-4 space-y-4 border-b-2 border-gray-500">
-                        <h1 class="text-4xl font-bold">
-                            GUILHERME MOISÉS RODRIGUES GARCIA
-                        </h1>
-                        <p>
-                            Graduando em Sistemas de Informação apaixonado por tecnologia e sua capacidade de transformar o mundo. Atualmente, estagiário de desenvolvimento de software, trabalhando com tecnologias como Laravel, PHP, Javascript e Vue. Bolsista do Programa de Educação Tutorial (PET), contribuindo para projetos de pesquisa e extensão.    
-                        </p>
-                    </section>
-                    <section id="experience" class="p-4 space-y-4 border-b-2 border-gray-500">
-                        <h2 class="text-2xl font-bold">
-                            EXPERIÊNCIA
-                        </h2>
-                        <p>
-                            Bolsista no projeto PET do curso e estágio de full stack na empresa Jetimob, daí quando tu tiver fazendo e quiser alguma informação a mais tu me chama que eu te falo, tipo descrição de atividaeds e tals, 
-                        </p>
-                    </section>
-                    <section id="education" class="p-4 space-y-4 border-b-2 border-gray-500">
-                        <h2 class="text-2xl font-bold">
-                            EDUCAÇÃO
-                        </h2>
-                        <p>
-                            Bacharelado em sistemas de informação
-                        </p>
-                    </section>
-                    <section id="skills" class="p-4 space-y-4">
-                        <h2 class="text-2xl font-bold">
-                            HABILIDADES
-                        </h2>
-                        <section class="space-y-2">
-                            <h3 class="text-xl font-bold">
-                                LINGUAGENS DE PROGRAMAÇÃO
-                            </h3>
-                            <div class="space-x-4 flex flex-row">
-                                <img src="../assets/icons/c-original.svg" class="h-16" alt="C Logo">
-                            </div>
-                        </section>
-                        <section class="space-y-2">
-                            <h3 class="text-xl font-bold">
-                                DESENVOLVIMENTO WEB
-                            </h3>
-                            <div class="space-x-4 flex flex-row">
-                                <img src="../assets/icons/html5-original.svg" class="h-16" alt="HTML5 Logo">
-                                <img src="../assets/icons/css3-original.svg" class="h-16" alt="CSS3 Logo">
-                                <img src="../assets/icons/javascript-original.svg" class="h-16" alt="Javascript Logo">
-                                <img src="../assets/icons/php-original.svg" class="h-16" alt="PHP Logo">
-                            </div>
-                        </section>
-                        <section class="space-y-2">
-                            <h3 class="text-xl font-bold">
-                                FRAMEWORKS
-                            </h3>
-                            <div class="flex space-x-4 flex-row">
-                                <img src="../assets/icons/vuejs-original.svg" class="h-16" alt="Vue.js Logo">
-                                <img src="../assets/icons/laravel-plain.svg" class="h-16" alt="Laravel Logo">
-                            </div>
-                        </section>
-                    </section>
-                </main>
-                <footer class="p-2 bg-slate-900 text-white">
-                    <p class="my-2 text-center">
-                        Desenvolvido por Alexandre Chagas Brites
+            <main class="relative p-4">
+                <section id="about" class="p-4 space-y-4 border-b-2 border-gray-500">
+                    <h1 class="text-4xl font-bold">
+                        GUILHERME MOISÉS RODRIGUES GARCIA
+                    </h1>
+                    <p>
+                        Graduando em Sistemas de Informação apaixonado por tecnologia e sua capacidade de transformar o mundo. Atualmente, estagiário de desenvolvimento de software, trabalhando com tecnologias como Laravel, PHP, Javascript e Vue. Bolsista do Programa de Educação Tutorial (PET), contribuindo para projetos de pesquisa e extensão.    
                     </p>
-                    <p class="text-right">
-                        Ícones feitos por <a href="https://github.com/konpa" class="underline">Konpa</a> de <a href="https://devicon.dev/" class="underline">DEVICON</a>
+                </section>
+                <section id="experience" class="p-4 space-y-4 border-b-2 border-gray-500">
+                    <h2 class="text-2xl font-bold">
+                        EXPERIÊNCIA
+                    </h2>
+                    <p>
+                        Bolsista no projeto PET do curso e estágio de full stack na empresa Jetimob, daí quando tu tiver fazendo e quiser alguma informação a mais tu me chama que eu te falo, tipo descrição de atividaeds e tals, 
                     </p>
-                </footer>
-            </div>
+                </section>
+                <section id="education" class="p-4 space-y-4 border-b-2 border-gray-500">
+                    <h2 class="text-2xl font-bold">
+                        EDUCAÇÃO
+                    </h2>
+                    <p>
+                        Bacharelado em sistemas de informação
+                    </p>
+                </section>
+                <section id="skills" class="p-4 space-y-4">
+                    <h2 class="text-2xl font-bold">
+                        HABILIDADES
+                    </h2>
+                    <section class="space-y-2">
+                        <h3 class="text-xl font-bold">
+                            LINGUAGENS DE PROGRAMAÇÃO
+                        </h3>
+                        <div class="space-x-4 flex flex-row">
+                            <img src="../assets/icons/c-original.svg" class="h-16" alt="C Logo">
+                            <img src="../assets/icons/php-original.svg" class="h-16" alt="PHP Logo">
+                        </div>
+                    </section>
+                    <section class="space-y-2">
+                        <h3 class="text-xl font-bold">
+                            DESENVOLVIMENTO WEB
+                        </h3>
+                        <div class="space-x-4 flex flex-row">
+                            <img src="../assets/icons/html5-original.svg" class="h-16" alt="HTML5 Logo">
+                            <img src="../assets/icons/css3-original.svg" class="h-16" alt="CSS3 Logo">
+                            <img src="../assets/icons/javascript-original.svg" class="h-16" alt="Javascript Logo">
+                        </div>
+                    </section>
+                    <section class="space-y-2">
+                        <h3 class="text-xl font-bold">
+                            FRAMEWORKS
+                        </h3>
+                        <div class="flex space-x-4 flex-row">
+                            <img src="../assets/icons/vuejs-original.svg" class="h-16" alt="Vue.js Logo">
+                            <img src="../assets/icons/laravel-plain.svg" class="h-16" alt="Laravel Logo">
+                        </div>
+                    </section>
+                </section>
+            </main>
+            <footer class="p-2 bg-slate-900 text-white">
+                <p class="my-2 text-center">
+                    Desenvolvido por Alexandre Chagas Brites
+                </p>
+                <p class="text-right">
+                    Ícones feitos por <a href="https://github.com/konpa" class="underline">Konpa</a> de <a href="https://devicon.dev/" class="underline">DEVICON</a>
+                </p>
+            </footer>
         </div>
     </body>
 </html>
