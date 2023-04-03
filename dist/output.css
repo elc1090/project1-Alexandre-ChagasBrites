@@ -548,10 +548,6 @@ video {
   margin-bottom: auto;
 }
 
-.block {
-  display: block;
-}
-
 .flex {
   display: flex;
 }
@@ -572,8 +568,8 @@ video {
   height: 100%;
 }
 
-.w-screen {
-  width: 100vw;
+.w-full {
+  width: 100%;
 }
 
 .flex-row {
@@ -704,11 +700,6 @@ video {
 
 .underline {
   text-decoration-line: underline;
-}
-
-.target\:text-white:target {
-  --tw-text-opacity: 1;
-  color: rgb(255 255 255 / var(--tw-text-opacity));
 }
 
 .hover\:bg-slate-500:hover {
